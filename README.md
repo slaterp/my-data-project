@@ -7,6 +7,8 @@ This is a basic data engineering project I used to familiarise myself with diffe
 
 ## 2. Architecture
 
+![image](https://user-images.githubusercontent.com/49575091/214498912-5ebf2e9d-c889-4e84-b5b2-a09138e2cf68.png)
+
 ## 3. ETL
 
 ### 3.1 Extract

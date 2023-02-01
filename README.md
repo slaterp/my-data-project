@@ -39,6 +39,11 @@ Now that our data is in stored in dataframes, we have access to many different t
 
 ### 3.3 Load
 
+To estbalish connection to the database, SQLAlchemy's create_engine() function is used. We can then use the Dataframe method to_sql() to load the data into Postgres.
+
+![image](https://user-images.githubusercontent.com/49575091/215920776-0ab4ef4f-2e37-4fdb-bf3a-5c1102227161.png)
+*Establishing DB connection and loading data*
+
 ## 4. Discussion 
 ### 4.1 Pandas vs Other Data Processing Options
 - Dataframes are very functional

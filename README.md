@@ -55,6 +55,7 @@ To estbalish connection to the database, SQLAlchemy's create_engine() function i
 
 ### 4.2 PostgreSQL vs Other Storage Options
 - Why is Postgres good? Why did I pick it?
-- What other options are there? Snowflake? MySQL? Cloud?
--
+- What other options are there? Snowflake? MySQL? Cloud? Redshift? BigQuery?
+- How would it go about integrating with BI tools?
+
 ## 5. Conclusion

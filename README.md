@@ -22,6 +22,7 @@ Data is stored locally in JSON format.
 
 ![image](https://user-images.githubusercontent.com/49575091/215917352-a6dd6baf-9278-410e-b1cd-86fa09057ed8.png)
 ![image](https://user-images.githubusercontent.com/49575091/215917504-1b7f81ac-d6cf-4e54-8423-bd9cc35514e3.png)
+
 *Snapshot of data extracted from API*
 
 ### 3.2 Transform

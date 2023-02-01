@@ -13,6 +13,12 @@ This is a basic data engineering project I used to familiarise myself with diffe
 
 ### 3.1 Extract
 
+The data for this project was extracted from the Squiggle AFL analytics API (https://api.squiggle.com.au/). Data was extracted in JSON format through a number of API calls - one for each AFL season beginning in 1990 and ending in 2022.
+
+![image](https://user-images.githubusercontent.com/49575091/215917031-0fd4ddb5-474a-4ff3-bd20-310858565c33.png)
+*Code responsible in data_request.py for API calls*
+
+
 ### 3.2 Transform
 
 ### 3.3 Load

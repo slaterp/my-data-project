@@ -17,4 +17,9 @@ This is a basic data engineering project I used to familiarise myself with diffe
 
 ### 3.3 Load
 
-## 4. Discussion and Conclusion
+## 4. Discussion 
+### 4.1 Pandas vs Other Data Processing Options
+
+### 4.2 PostgreSQL vs Other Storage Options
+
+## 5. Conclusion

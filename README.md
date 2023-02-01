@@ -27,6 +27,11 @@ Data is stored locally in JSON format.
 
 ### 3.2 Transform
 
+Python's JSON library and Pandas' Dataframes provide a simple way to transform the extracted data. Using these we generate an array of dataframes containing all AFL seasons' data.
+
+![image](https://user-images.githubusercontent.com/49575091/215918977-cc2f4f03-1182-4e23-8b13-9cefb077f22d.png)
+*An array of Dataframes containing our extracted data*
+
 ### 3.3 Load
 
 ## 4. Discussion 

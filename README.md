@@ -1,5 +1,5 @@
 # my-data-project
-Basic data engineering project to explore end-to-end data pipelines, ETL and data visualisation.
+Basic data engineering project to explore end-to-end ETL data pipelines .
 
 ## 1. Introduction
 

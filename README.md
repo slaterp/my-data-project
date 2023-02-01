@@ -19,7 +19,15 @@ This is a basic data engineering project I used to familiarise myself with diffe
 
 ## 4. Discussion 
 ### 4.1 Pandas vs Other Data Processing Options
+- Dataframes are very functional
+- Very effective for low volume data such as this project
+- Pandas easy to pick up for anyone with Python experience
+
+- Pandas probably not scalable (explain why)
+- Talk abt other options (eg Spark - distributed processing)
 
 ### 4.2 PostgreSQL vs Other Storage Options
-
+- Why is Postgres good? Why did I pick it?
+- What other options are there? Snowflake? MySQL? Cloud?
+-
 ## 5. Conclusion

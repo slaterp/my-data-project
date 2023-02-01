@@ -32,6 +32,11 @@ Python's JSON library and Pandas' Dataframes provide a simple way to transform t
 ![image](https://user-images.githubusercontent.com/49575091/215918977-cc2f4f03-1182-4e23-8b13-9cefb077f22d.png)
 *An array of Dataframes containing our extracted data*
 
+Now that our data is in stored in dataframes, we have access to many different tools to transform and process the data (https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html). For this project, the transformation is simply removing the goals for/against and behinds for/against columns - generally in AFL statistics the total points for/against give enough resolution in terms of a teams offensive and defensive quality for the goals and behinds columns to be redundant.
+
+![image](https://user-images.githubusercontent.com/49575091/215919655-99434908-2c97-4b7b-b612-57cfff458eee.png)
+*Removing the redundant goals and behinds columns*
+
 ### 3.3 Load
 
 ## 4. Discussion 
@@ -40,7 +45,7 @@ Python's JSON library and Pandas' Dataframes provide a simple way to transform t
 - Very effective for low volume data such as this project
 - Pandas easy to pick up for anyone with Python experience
 
-- Pandas probably not scalable (explain why)
+- Pandas probably not scalable (explain why - dataframes are operationally inefficient I think)
 - Talk abt other options (eg Spark - distributed processing)
 
 ### 4.2 PostgreSQL vs Other Storage Options

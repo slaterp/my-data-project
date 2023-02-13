@@ -47,15 +47,13 @@ To estbalish connection to the database, SQLAlchemy's create_engine() function i
 ## 4. Discussion 
 ### 4.1 Pandas vs Other Data Processing Options
 
-Due to my previous experience with the Pandas library, I selected it for this project. Beyond that, Pandas is a very useful option for low volume data processing. Pandas' Dataframe data structure are highly functional with many useful methods to access specific columns, labels and/or rows, and also perform calculations (dot products, aggregates, cumulative min/max). Pandas is also very simple for someone with Pyhon experience to pick up due to its straightforward syntax and extensive API documentaiton and community.
+Due to my previous experience with the Pandas library, I selected it for this project. Beyond that, Pandas is a very useful option for low volume data processing. Pandas' Dataframe data structure are highly functional with many useful methods to access specific columns, labels and/or rows, and also perform calculations (dot products, aggregates, cumulative min/max). Pandas is also very simple for someone with Python experience to pick up due to its straightforward syntax and extensive API documentaiton and community.
 
-
-- Pandas probably not scalable (explain why - dataframes are operationally inefficient I think)
-- Talk abt other options (eg Spark - distributed processing)
+Pandas falls short on large datasets. Pandas exclusively operates on a single core/machine which inhibits its ability to process large volumes of data. A common option for large volumes of data is Spark, which has similar benefits to Pandas (extensive community support and documentation, easy to pick up with Python experience). Spark however has the added bonus of being distributed in nature - having the ability to use multiple cores or machines to perform operations. [Analysis by blogger and developer Steven Levine](https://stevenlevine.dev/2022/01/pandas-on-spark-vs-plain-pandas/) found that there was a nearly 50% difference in runtime between Spark and Pandas for just 7.3 GB of data 
 
 ### 4.2 PostgreSQL vs Other Storage Options
 - Why is Postgres good? Why did I pick it?
-- What other options are there? Snowflake? MySQL? Cloud? Redshift? BigQuery?
+- What other options are there? Snowflake? MySQL? Cloud? Redshift? BigQuery? NoSQL?
 - How would it go about integrating with BI tools?
 
 ## 5. Conclusion

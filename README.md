@@ -66,6 +66,6 @@ When I set out to start this project I wanted to create a straight forward ETL p
 In the discussion I discussed the relative strengths and weaknesses of my approach and identified a number of tools that developers and architects can use for more complex pipelines or ones that must process higher volumes of data.
 
 
-I hope you enjoyed and thanks for reading! :)
+Thanks for reading! :)
 
 - Patrick

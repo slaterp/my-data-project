@@ -53,7 +53,8 @@ Pandas falls short on large datasets. Pandas exclusively operates on a single co
 
 ### 4.2 PostgreSQL vs Other Storage Options
 
-- Why is Postgres good? Why did I pick it?
+Again, like with Pandas, I selected Postgres firstly because I had prior experience with the database. Postgres is however an excellent option - a widely used open source database with great community support and documentation. Postgres is used by AWS in their relational database service Redshift, Postgres is available on Azure servers and GCP has a Cloud SQL service for Postgres. PostgreSQL in itself provides support for foreign keys, sub queries and has better CSV support than most SQL options (such as `copy to` and `copy from` functions).
+
 - What other options are there? Snowflake? MySQL? Cloud? Redshift? BigQuery? NoSQL?
 - How would it go about integrating with BI tools?
 

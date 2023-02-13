@@ -55,7 +55,15 @@ Pandas falls short on large datasets. Pandas exclusively operates on a single co
 
 Again, like with Pandas, I selected Postgres firstly because I had prior experience with the database. Postgres is however an excellent option - a widely used open source database with great community support and documentation. Postgres is used by AWS in their relational database service Redshift, Postgres is available on Azure servers and GCP has a Cloud SQL service for Postgres. PostgreSQL in itself provides support for foreign keys, sub queries and has better CSV support than most SQL options (such as `copy to` and `copy from` functions).
 
-- What other options are there? Snowflake? MySQL? Cloud? Redshift? BigQuery? NoSQL?
-- How would it go about integrating with BI tools?
+These days there are a plethora of storage options for architects and developers to select from. In this section, I will limit my discussion to two common datawarehouses: Snowflake and AWS Redshift.
+
+Compared to the local PostgreSQL option I chose for this project, the advantages of Redshift and Snowflake are obvious; they come with all the functionality and agility of cloud-based services: off-prem, easy-to-scale, pay-for-what-you-use and managed services amongst others.
 
 ## 5. Conclusion
+
+When I set out to start this project I wanted to create a straight forward ETL pipeline using tools I already had some understanding of. The result was a build that utilised Python, Pandas and Postgres to pull data from a public API. For the low volume of data used in this project, the tools were very effective and allow for replicability (within a certain volume range) and - I believe - a very simple pipeline for first timers to understand conceptually as well as in practice. 
+
+In the discussion I discussed the relative strengths and weaknesses of my approach and identified a number of tools that developers and architects can use for more complex pipelines or ones that must process higher volumes of data.
+
+
+I hope you enjoyed and thanks for reading! :)
